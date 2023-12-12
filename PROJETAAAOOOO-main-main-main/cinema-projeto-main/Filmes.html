@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Filmes.css">
+    <title>Filmes - Cinema Itaim</title>
+</head>
+
+<body>
+    <video autoplay loop muted class="video-bg">
+        <source src="AllBackgroundVideos.mp4" type="video/mp4">
+        <source src="RedPaintCombustion.mp4" type="video/mp4">
+    </video>
+
+
+    <div id="cima-tudo">
+        <a href="index.html">
+            <img class="logo" src="logo cinema.png">
+        </a>
+        <div class="texto-cima">
+            <button class="nav-botoes">
+                <a href="Filmes.html">Filmes</a>
+            </button>
+            <button class="nav-botoes">
+                <a href="Catalogo.html">Catálogo</a>
+            </button>
+            <button class="nav-botoes">
+                <a href="Noticia.html">Notícias</a>
+            </button>
+            <button class="nav-botoes">
+                <a href="Novo.html">Novo</a>
+            </button>
+
+            <div class="menu-search">
+                <img class="imgs2" src="menu.png" onclick="toggleMenu()">
+                
+            </div>
+        </div>
+
+
+    </div>
+    <div class="baixo-nav">
+        <div class="texto-baixo-nav">
+            <h1>FILM<span>ES</span></h1>
+        </div>
+    </div>
+    <div class="linha-branca"></div>
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- Conteúdo do menu direito -->
+    <div class="menu-direito" id="menuDireito">
+
+        <button class="fechar-botao" onclick="fecharMenu()">
+            <p>Fechar</p>
+            <img src="x.png" alt="">
+        </button>
+        <div class="coisas-menu">
+            <a href="Desenvolvimento.html">Desenvolvimento</a>
+            <a>Contato</a>
+            <a>Eventos Adicionais</a>
+            
+        </div>
+        <div class="coisas-menu-baixo">
+            <div class="imgs-menu-container">
+                <img class="imgs-menu"
+                    src="facebook-instagram-twitter-and-whatsapp-icon-free-vector-removebg-preview.png">
+                <img class="imgs-menu" src="">
+                <img class="imgs-menu" src="">
+            </div>
+        </div>
+        <button id="btnAlterarEstilo" onclick="alterarEstilo()">Alterar Tema</button>
+    </div>
+    <!-- CARROSEEL -->
+    <div class="carrossel-container">
+        <div class="text-carrossel">
+            <h2>AÇÃO :</h2>
+            <i>História de protagonistas do bem contra antagonistas do mal</i>
+        </div>
+        <div class="carrossel-inner">
+
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/13615_medio.jpg" alt="Imagem 3">
+                <p>As Marvels</p>
+                <i>Herói/Ação</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/12501_medio.jpg" alt="Imagem 5">
+                <p>Aquaman 2</p>
+                <i>Herói/Ação</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/15599_medio.jpg" alt="Imagem 6">
+                <p>Patos</p>
+                <i>Ação/Comédia</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/15497_medio.jpg" alt="Imagem 6">
+                <p>o Jogo da Invocação</p>
+                <i>Terror/Ação</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/15794_medio.jpg" alt="Imagem 6">
+                <p>Godzilla e Kong: Novo Im...</p>
+                <i>Ação</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/15001_medio.jpg" alt="Imagem 6">
+                <p>Kraven</p>
+                <i>Herói/Ação</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/15734_medio.jpg" alt="Imagem 6">
+                <p>Sociedade da Neve</p>
+                <i>Romance/Ação</i>
+            </div>
+        </div>
+        <!-- Adicione mais slides conforme necessário -->
+        <button class="prev-btn" onclick="mudarSlide(-1)">
+            <img class="esquerda" src="right.png">
+        </button>
+        <button class="next-btn" onclick="mudarSlide(1)">
+            <img class="direita" src="left.png">
+        </button>
+    </div>
+    </div>
+
+
+    <div class="carrossel-container">
+        <div class="text-carrossel">
+            <h2>TERROR/SUSPENCE :</h2>
+            <i>História de protagonistas do bem contra antagonistas do mal</i>
+        </div>
+        <div class="carrossel-inner">
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15434_medio.jpg" alt="Imagem 3">
+                <p>O Malvado: Horror no Na...</p>
+                <i>Suspence</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15779_medio.jpg" alt="Imagem 5">
+                <p>Propriedade</p>
+                <i>Suspence/Terror</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15720_medio.jpg" alt="Imagem 6">
+                <p>Patos</p>
+                <i>Ação/Comédia</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15499_medio.jpg" alt="Imagem 6">
+                <p>A Maldição do Queen Mary</p>
+                <i>Terror/Suespence</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15717_medio.jpg" alt="Imagem 6">
+                <p>Zona de Interesse</p>
+                <i>Suspence/Drama</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="https://claquete.com.br/fotos/filmes/poster/15497_medio.jpg" alt="Imagem 6">
+                <p>o Jogo da Invocação</p>
+                <i>Terror/Ação</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15562_medio.jpg" alt="Imagem 6">
+                <p>Feriado Sangrento</p>
+                <i>Terror</i>
+            </div>
+        </div>
+        <!-- Adicione mais slides conforme necessário -->
+        <button class="prev-btn" onclick="mudarSlide(-1)">
+            <img class="esquerda" src="right.png">
+        </button>
+        <button class="next-btn" onclick="mudarSlide(1)">
+            <img class="direita" src="left.png">
+        </button>
+
+    </div>
+
+
+    <div class="carrossel-container">
+        <div class="text-carrossel">
+            <h2>DRAMA :</h2>
+            <i>História de Romance</i>
+        </div>
+        <div class="carrossel-inner">
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15755_medio.jpg" alt="Imagem 3">
+                <p>Almas Gêmeas</p>
+                <i>Romance</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15777_medio.jpg" alt="Imagem 5">
+                <p>Softie</p>
+                <i>Drama</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15783_medio.jpg" alt="Imagem 6">
+                <p>Jornada Para Belém</p>
+                <i>Drama</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15679_medio.jpg" alt="Imagem 6">
+                <p>Maestro</p>
+                <i>Drama/Biografia</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15647_medio.jpg" alt="Imagem 6">
+                <p>A Linha</p>
+                <i>Drama</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15549_medio.jpg" alt="Imagem 6">
+                <p>Pare Com suas Mentiras</p>
+                <i>Drama</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15626_medio.jpg" alt="Imagem 6">
+                <p>O Desafio de Marguerite</p>
+                <i>Romance/Drama</i>
+            </div>
+        </div>
+        <!-- Adicione mais slides conforme necessário -->
+        <button class="prev-btn" onclick="mudarSlide(-1)">
+            <img class="esquerda" src="right.png">
+        </button>
+        <button class="next-btn" onclick="mudarSlide(1)">
+            <img class="direita" src="left.png">
+        </button>
+
+    </div>
+
+
+    <div id="sobre-Filmes">
+        <img src="logo cinema.png">
+        <h1>SOBRE : Film<span>es</span></h1>
+        <p>
+
+            Ao acessar nossa página de filmes, você se depara com as últimas estreias, desde os aguardados blockbusters
+            até obras independentes que conquistam corações. A experiência começa com trailers exclusivos,
+            proporcionando uma prévia emocionante do que está por vir, despertando sua curiosidade e antecipação.</p>
+
+    </div>
+    <!-- FINAAAAAAALLLLLLL -->
+    <div id="final">
+        <div class="final-titulo">
+            <h1>A SUA REDE<br> DE CINEMA<br> AQUI</h1>
+        </div>
+        <div class="text-final">
+            <h1>Sobre Nós<br>Nossa história</h1>
+            <div class="text-menos-final">
+                <div class="parte1">
+                    <p>Localizar de negociante</p>
+                    <p>Comprar</p>
+                    <p>Contato</p>
+                </div>
+                <div class="parte2">
+                    <p>Empresa</p>
+                    <p>Política de Cookies</p>
+                    <a href="https://discord.gg/MWq9bG9a">
+                        <p>Conversar com BOT
+                    </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Filmes.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="carrossel-container">
+        <div class="text-carrossel">
+            <h2>DRAMA :</h2>
+            <i>História de Romance</i>
+        </div>
+        <div class="carrossel-inner">
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15755_medio.jpg" alt="Imagem 3">
+                <p>Almas Gêmeas</p>
+                <i>Romance</i>
+            </div>
+
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15777_medio.jpg" alt="Imagem 5">
+                <p>Softie</p>
+                <i>Drama</i>
+            </div>
+            <div class="carrossel-slide">
+                <img src="http://www.claquete.com.br/fotos/filmes/poster/15783_medio.jpg" alt="Imagem 6">
+                <p>Jornada Para Belém</p>
+                <i>Drama</i>
+            </div>
+        </div>
+    </div> -->

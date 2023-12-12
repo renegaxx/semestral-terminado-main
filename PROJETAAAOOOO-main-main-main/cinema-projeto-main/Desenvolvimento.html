@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desenvolvimento.css">
+    <title>Desenvolvimento - Cinema Itaim</title>
+</head>
+
+<body>
+    <video autoplay loop muted class="video-bg">
+        <source src="AllBackgroundVideos.mp4" type="video/mp4">
+        <source src="RedPaintCombustion.mp4" type="video/mp4">
+    </video>
+
+
+    <div id="cima-tudo">
+        <a href="index.html">
+            <img class="logo" src="logo cinema.png">
+        </a>
+        <div class="texto-cima">
+            <button class="nav-botoes">
+                <a href="Filmes.html">Filmes</a>
+            </button>
+            <button class="nav-botoes">
+                <a href="catalogo.html">Catálogo</a>
+            </button>
+            <button class="nav-botoes">
+                <a href="Noticia.html">Notícias</a>
+            </button>
+            <button class="nav-botoes">
+                <a href="Novo.html">Novo</a>
+            </button>
+
+            <div class="menu-search">
+                <img class="imgs1" src="search.png" onclick="togglePesquisa()">
+                <img class="imgs2" src="menu.png" onclick="toggleMenu()">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Pesquisar...">
+                    <button class="nav-botoes" id="searchButton" onclick="togglePesquisa()">
+                        <p>Pesquisar</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------- -->
+        <!-- Conteúdo do menu direito -->
+        <div class="menu-direito" id="menuDireito">
+
+            <button class="fechar-botao" onclick="fecharMenu()">
+                <p>Fechar</p>
+                <img src="x.png" alt="">
+            </button>
+            <div class="coisas-menu">
+                <a>Desenvolvimento</a>
+                <a>Contato</a>
+                <a>Eventos Adicionais</a>
+                
+            </div>
+            <div class="coisas-menu-baixo">
+                <div class="imgs-menu-container">
+                    <img class="imgs-menu"
+                        src="facebook-instagram-twitter-and-whatsapp-icon-free-vector-removebg-preview.png">
+                    <img class="imgs-menu" src="">
+                    <img class="imgs-menu" src="">
+                </div>
+            </div>
+            <button id="btnAlterarEstilo" onclick="alterarEstilo()">Alterar Tema</button>
+        </div>
+
+    </div>
+    <div class="baixo-nav">
+        <div class="texto-baixo-nav">
+            <h1>DESENVOLVI<span>MENTO</span></h1>
+            <i>Descubra agora o que há por trás de toda essa reforma no Cine Itaim</i>
+        </div>
+    </div>
+    <div class="linha-branca"></div>
+
+    <div id="desenvolvimento">
+        <div class="conteudo-desen">
+            <div class="text-img">
+                <img class="logo-antiga" src="logo antiga.png" alt="">
+                <img class="logo-IU" src="logo IU.png" alt="">
+                <p>Estamos emocionados em anunciar uma colaboração incrível entre o<br> Itaim Cinema e a IUpgrade Web,
+                    resultando em um site totalmente renovado e<br> adaptado para atender a todas as suas necessidades e
+                    expectativas. <br><br>
+                    Com a expertise da IUpgrade Web, desenvolvemos um design personalizado que reflete a<br> identidade
+                    única do Itaim Cinema. Desde a página inicial até os detalhes finos,<br> cada elemento foi
+                    cuidadosamente elaborado para oferecer uma experiência visual envolvente.</p>
+            </div>
+        </div>
+
+        <div class="linha-branca"></div>
+
+        <div class="proximo-conteudo-desen">
+            <div class="text-desen">
+                <h2>PRODUÇÃO DA REFORMA :</h2>
+                <div class="titulo-desen">
+                    <h1>DESENVOL<br><span>VIMENTO</span></h1>
+                </div></div>
+            </div>
+            <div class="imgs-desen1">
+                <img src="img - antes - desen.jpg" alt="">
+                <p>Reconhecemos que a estética do site anterior não estava mais<br> alinhada com a qualidade que buscamos proporcionar. Optamos<br> por uma abordagem proativa, escolhendo uma renovação completa<br> para garantir que cada visita ao nosso site seja visualmente<br> agradável e envolvente.</p>
+            </div>
+            <div class="imgs-desen2">
+                <p>A foto à direita mostra o primeiro protótipo de design do Itaim<br> Cinema, é possível verificar que não havia a essencia do site. Então<br> optamos por melhorar o design e acrescentar outros componentes</p>
+                <img src="IMAGEM - DIREITA - DESEN.jpg" alt="">
+            </div>
+            <div class="imgs-desen3">
+                <img src="WhatsApp Image 2023-12-11 at 23.15.16.jpeg" alt="">
+                <img src="WhatsApp Image 2023-12-11 at 23.15.16 (1).jpeg" alt="">
+                <p>Dentro da sala de aula, a equipe envolvida no desenvolvimento do novo site<br> do Cinema Itaim Paulista mergulhou em um ambiente educacional dinâmico e prático.<br>
+                    Iniciamos com sessões de planejamento, onde discutimos metas, requisitos e a visão<br> geral do projeto. Identificamos os desafios específicos do setor cinematográfico<br> e delineamos estratégias para enfrentá-los. </p>
+                
+            </div>
+
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="Desenvolvimento.js"></script>
+</body>
+
+</html>
